@@ -1,0 +1,136 @@
+# qpAdm Wrapper – Scalable & Reproducible Admixture Pipeline
+
+## Overview
+
+This repository provides a **first-of-its-kind scalable qpAdm wrapper** that enables a fully reproducible admixture analysis pipeline through a unified Jupyter Notebook interface.  
+
+It removes traditional Linux/R setup overhead and automates SNP preprocessing, dataset merging, and qpAdm batch execution for large-scale population genetics analysis.
+
+The pipeline has been tested on:
+
+- 1240K SNP markers  
+- 1000+ individuals  
+- AADR dataset (David Reich Lab standard)  
+- Automated qpAdm batch modeling  
+
+---
+
+## Key Features
+
+- Fully reproducible qpAdm workflow  
+- Unified Jupyter Notebook execution  
+- Automated SNP filtering (1240K SNP list)  
+- AADR dataset compatibility  
+- Automated batch qpAdm runs  
+- PCA and f-statistics integration  
+- High-dimensional SNP preprocessing using NumPy & Pandas  
+- Scalable and modular design  
+
+---
+
+## Dataset
+
+This project uses the **Allen Ancient DNA Resource (AADR)** dataset released by David Reich Lab (Harvard standard reference dataset).
+
+Why AADR?
+
+- 1240K SNP coverage  
+- Extensive ancient & modern population coverage  
+- Gold-standard dataset for qpAdm modeling  
+
+HO (Human Origins) dataset is also supported, but AADR is recommended due to broader coverage.
+
+---
+
+# How qpAdm Works (Pipeline Explanation)
+
+## Step 1 – Raw DNA Input
+
+We begin with raw DNA files from consumer genetic testing platforms such as:
+
+- AncestryDNA  
+- 23andMe  
+- Genetrack  
+- EasyDNA  
+- MyHeritage  
+
+These files are typically provided in `.txt` format.
+
+Before processing, the file must be converted into **23andMe format**, which acts as the standardized input format for the pipeline.
+
+---
+
+## Step 2 – SNP Filtering (1240K SNP List)
+
+The DNA file is filtered using the **1240K SNP list** to ensure compatibility with the AADR dataset.
+
+Purpose:
+
+- Align SNP positions with reference dataset  
+- Remove unsupported markers  
+- Ensure statistical validity  
+
+After this step, the file matches the SNP structure of AADR.
+
+---
+
+## Step 3 – Dataset Merge
+
+The filtered file is merged with:
+
+- AADR dataset (recommended)  
+- OR HO dataset  
+
+AADR is preferred because it provides:
+
+- Larger population coverage  
+- More ancient samples  
+- Better modeling resolution  
+
+After merging, the dataset contains:
+
+- Target individual  
+- Reference populations  
+- Standardized SNP markers  
+
+Now the data is ready for qpAdm modeling.
+
+---
+
+## Step 4 – qpAdm Modeling
+
+qpAdm estimates ancestry proportions by modeling a target population as a mixture of selected source populations.
+
+For Indian population structure analysis, major ancestral components often include:
+
+- AASI (Ancient Ancestral South Indian)  
+- IVC (Iranian farmer-related ancestry) 
+- Steppe (Steppe pastoralist / Indo-European related ancestry)  
+
+
+Process:
+
+1. Select target population  
+2. Choose 7–8 source populations  
+3. Define outgroup populations  
+4. Execute qpAdm runs (automated batch supported)  
+
+---
+
+## Step 5 – Model Evaluation
+
+qpAdm outputs:
+
+- Ancestry proportions  
+- Standard errors  
+- P-value (model fit score)  
+
+Interpretation:
+
+- **P-value > 0.05 → Model Pass (statistically valid)**  
+- **P-value < 0.05 → Model Fail (reject model)**  
+
+Higher p-value indicates better statistical fit
+
+![IMG_20260117_053438](https://github.com/user-attachments/assets/26b00f86-5a94-45f8-856b-0efda4dd43c2)
+
