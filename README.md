@@ -39,7 +39,7 @@ HO (Human Origins) dataset is also supported, but AADR is recommended due to bro
 
 We begin with raw DNA files from consumer genetic testing platforms such as:
 
-- AncestryDNA • 23andMe • Genetrack • EasyDNA • MyHeritage
+• AncestryDNA • 23andMe • Genetrack • EasyDNA • MyHeritage
 
 
 These files are typically provided in `.txt` format.
