@@ -13,7 +13,6 @@ The pipeline has been tested on:
 - AADR dataset (David Reich Lab standard)  
 - Automated qpAdm batch modeling  
 
----
 
 ## Key Features
 
@@ -26,7 +25,6 @@ The pipeline has been tested on:
 - High-dimensional SNP preprocessing using NumPy & Pandas  
 - Scalable and modular design  
 
----
 
 ## Dataset
 
