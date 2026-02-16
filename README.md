@@ -32,9 +32,6 @@ Why AADR?
 
 HO (Human Origins) dataset is also supported, but AADR is recommended due to broader coverage.
 
-<strong style="font-size: 80px;">How qpAdm Works (Pipeline Explanation)</strong>
-
-
 
 ## How qpAdm Works (Pipeline Explanation)
 
