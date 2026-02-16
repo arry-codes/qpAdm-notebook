@@ -1,4 +1,4 @@
-# qpAdm Wrapper – Scalable & Reproducible Admixture Pipeline
+# qpAdm Wrapper – Genomic Admixture Modeling Pipeline
 
 ## Overview
 
