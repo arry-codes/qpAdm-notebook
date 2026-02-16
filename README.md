@@ -6,13 +6,6 @@ This repository provides a **first-of-its-kind scalable qpAdm wrapper** that ena
 
 It removes traditional Linux/R setup overhead and automates SNP preprocessing, dataset merging, and qpAdm batch execution for large-scale population genetics analysis.
 
-The pipeline has been tested on:
-
-- 1240K SNP markers  
-- 1000+ individuals  
-- AADR dataset (David Reich Lab standard)  
-- Automated qpAdm batch modeling  
-
 
 ## Key Features
 
