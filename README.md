@@ -36,7 +36,7 @@ HO (Human Origins) dataset is also supported, but AADR is recommended due to bro
 
 
 
-## Step 1 – Raw DNA Input
+## How qpAdm Works (Pipeline Explanation)
 
 We begin with raw DNA files from consumer genetic testing platforms such as:
 
@@ -46,13 +46,13 @@ We begin with raw DNA files from consumer genetic testing platforms such as:
 These files are typically provided in `.txt` format.Before processing, the file must be converted into **23andMe format**, which acts as the standardized input format for the pipeline.
 
 
-## Step 2 – SNP Filtering (1240K SNP List)
+## Step 1 – SNP Filtering (1240K SNP List)
 
 The DNA file is filtered using the **1240K SNP list** to ensure compatibility with the AADR dataset.
   After this step, the file matches the SNP structure of AADR.
 
 
-## Step 3 – Dataset Merge
+## Step 2 – Dataset Merge
 
 The filtered file is merged with:
 
@@ -62,7 +62,7 @@ The filtered file is merged with:
 AADR is preferred because it provides larger population coverage, includes more ancient samples, and offers better modeling resolution compared to alternative datasets.
 
 
-## Step 4 – qpAdm Modeling
+## Step 3 – qpAdm Modeling
 
 qpAdm estimates ancestry proportions by modeling a target population as a mixture of selected source populations.
 
@@ -81,7 +81,7 @@ Process:
 4. Execute qpAdm runs (automated batch supported)  
 
 
-## Step 5 – Model Evaluation
+## Step 4 – Model Evaluation
 
 - **P-value > 0.05 → Model Pass (statistically valid)**  
 - **P-value < 0.05 → Model Fail (reject model)**  
