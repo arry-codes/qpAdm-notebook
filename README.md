@@ -58,7 +58,6 @@ These files are typically provided in `.txt` format.
 
 Before processing, the file must be converted into **23andMe format**, which acts as the standardized input format for the pipeline.
 
----
 
 ## Step 2 – SNP Filtering (1240K SNP List)
 
@@ -72,7 +71,6 @@ Purpose:
 
 After this step, the file matches the SNP structure of AADR.
 
----
 
 ## Step 3 – Dataset Merge
 
@@ -85,7 +83,6 @@ AADR is preferred because it provides larger population coverage, includes more 
 
 After merging, the dataset contains the target individual, the selected reference populations, and standardized SNP markers aligned to the same reference panel. At this stage, the data is fully prepared for qpAdm modeling.
 
----
 
 ## Step 4 – qpAdm Modeling
 
@@ -105,7 +102,6 @@ Process:
 3. Define outgroup populations  
 4. Execute qpAdm runs (automated batch supported)  
 
----
 
 ## Step 5 – Model Evaluation
 
