@@ -62,14 +62,7 @@ Before processing, the file must be converted into **23andMe format**, which act
 ## Step 2 – SNP Filtering (1240K SNP List)
 
 The DNA file is filtered using the **1240K SNP list** to ensure compatibility with the AADR dataset.
-
-Purpose:
-
-- Align SNP positions with reference dataset  
-- Remove unsupported markers  
-- Ensure statistical validity  
-
-After this step, the file matches the SNP structure of AADR.
+  After this step, the file matches the SNP structure of AADR.
 
 
 ## Step 3 – Dataset Merge
@@ -105,18 +98,8 @@ Process:
 
 ## Step 5 – Model Evaluation
 
-qpAdm outputs:
-
-- Ancestry proportions  
-- Standard errors  
-- P-value (model fit score)  
-
-Interpretation:
-
 - **P-value > 0.05 → Model Pass (statistically valid)**  
 - **P-value < 0.05 → Model Fail (reject model)**  
-
-Higher p-value indicates better statistical fit
 
 ![IMG_20260117_053438](https://github.com/user-attachments/assets/26b00f86-5a94-45f8-856b-0efda4dd43c2)
 
