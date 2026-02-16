@@ -32,7 +32,6 @@ Why AADR?
 
 HO (Human Origins) dataset is also supported, but AADR is recommended due to broader coverage.
 
----
 
 # How qpAdm Works (Pipeline Explanation)
 
@@ -65,8 +64,6 @@ The filtered file is merged with:
 - OR HO dataset  
 
 AADR is preferred because it provides larger population coverage, includes more ancient samples, and offers better modeling resolution compared to alternative datasets.
-
-After merging, the dataset contains the target individual, the selected reference populations, and standardized SNP markers aligned to the same reference panel. At this stage, the data is fully prepared for qpAdm modeling.
 
 
 ## Step 4 – qpAdm Modeling
