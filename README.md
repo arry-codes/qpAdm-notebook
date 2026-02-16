@@ -23,7 +23,7 @@ It removes traditional Linux/R setup overhead and automates SNP preprocessing, d
 
 This project uses the **Allen Ancient DNA Resource (AADR)** dataset released by David Reich Lab (Harvard standard reference dataset) : [Link](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FFIDCW)
 
-Why AADR?
+Why AADR ?
 
 - 1240K SNP coverage  
 - Extensive ancient & modern population coverage  
