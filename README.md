@@ -22,7 +22,7 @@ It removes traditional Linux/R setup overhead and automates SNP preprocessing, d
 
 ## Dataset
 
-This project uses the **Allen Ancient DNA Resource (AADR)** dataset released by David Reich Lab (Harvard standard reference dataset).
+This project uses the **Allen Ancient DNA Resource (AADR)** dataset released by David Reich Lab (Harvard standard reference dataset) : [Link](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FFIDCW)
 
 Why AADR?
 
