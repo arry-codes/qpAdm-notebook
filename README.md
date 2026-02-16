@@ -17,7 +17,6 @@ It removes traditional Linux/R setup overhead and automates SNP preprocessing, d
 - Automated batch qpAdm runs  
 - PCA and f-statistics integration  
 - High-dimensional SNP preprocessing using NumPy & Pandas  
-- Scalable and modular design  
 
 
 ## Dataset
