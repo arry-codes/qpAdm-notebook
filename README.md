@@ -1,5 +1,5 @@
 ## 🧬 qpAdm Wrapper - Genomic Admixture Modeling Pipeline
-To learn more in detail about qpAdm, including what it is, how it works, and its purpose, kindly refer to this : [qpAdm Tutorial](https://indoaryan.com/qpadm-tutorial/)
+To learn more in detail about qpAdm, including what it is, how it works, and its purpose, kindly refer to this : [Tutorial](https://indoaryan.com/qpadm-tutorial/)
 
 ## Overview
 
