@@ -81,19 +81,9 @@ The filtered file is merged with:
 - AADR dataset (recommended)  
 - OR HO dataset  
 
-AADR is preferred because it provides:
+AADR is preferred because it provides larger population coverage, includes more ancient samples, and offers better modeling resolution compared to alternative datasets.
 
-- Larger population coverage  
-- More ancient samples  
-- Better modeling resolution  
-
-After merging, the dataset contains:
-
-- Target individual  
-- Reference populations  
-- Standardized SNP markers  
-
-Now the data is ready for qpAdm modeling.
+After merging, the dataset contains the target individual, the selected reference populations, and standardized SNP markers aligned to the same reference panel. At this stage, the data is fully prepared for qpAdm modeling.
 
 ---
 
