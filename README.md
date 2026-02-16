@@ -42,9 +42,7 @@ We begin with raw DNA files from consumer genetic testing platforms such as:
 • AncestryDNA • 23andMe • Genetrack • EasyDNA • MyHeritage
 
 
-These files are typically provided in `.txt` format.
-
-Before processing, the file must be converted into **23andMe format**, which acts as the standardized input format for the pipeline.
+These files are typically provided in `.txt` format.Before processing, the file must be converted into **23andMe format**, which acts as the standardized input format for the pipeline.
 
 
 ## Step 2 – SNP Filtering (1240K SNP List)
