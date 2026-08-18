@@ -1,6 +1,8 @@
 ## 🧬 qpAdm Wrapper - Genomic Admixture Modeling Pipeline
 To learn more in detail about qpAdm, including what it is, how it works, and its purpose, kindly refer to this : [Tutorial](https://indoaryan.com/qpadm-tutorial/)
 
+🔗 Check it out here : [https://qpadm-pipeline.streamlit.app](https://qpadm-pipeline.streamlit.app)
+
 ## Overview
 
 This repository provides a **first-of-its-kind scalable qpAdm wrapper** that enables a fully reproducible admixture analysis pipeline through a unified Jupyter Notebook interface.  
